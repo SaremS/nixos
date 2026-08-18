@@ -70,6 +70,10 @@
     nnn
     bibata-cursors
     git
+    go
+    ffuf
+    nuclei
+    katana
   ];
 
   environment.sessionVariables = {
