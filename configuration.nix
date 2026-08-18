@@ -83,6 +83,7 @@
     unzip
     socat
     netcat
+    uv
   ];
 
   environment.sessionVariables = {
