@@ -77,6 +77,8 @@
     nmap
     chisel
     wget
+    openvpn
+    burpsuite
   ];
 
   environment.sessionVariables = {
