@@ -27,8 +27,8 @@
     recursive = true;
   };
 
-  home.file."Pictures/wallpapers/wallpaper.jpg".source = 
-    ./dotfiles/wallpapers/wallpaper.jpg;
+  home.file."Pictures/wallpapers/wallpaper.png".source = 
+    ./dotfiles/wallpapers/wallpaper.png;
 
 }
 

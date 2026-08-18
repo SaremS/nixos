@@ -97,7 +97,7 @@
 
     settings = {
       initial_session = {
-        command = "Hyprland --config /home/YOUR_USERNAME/.config/hypr/hyprland.conf";
+        command = "Hyprland --config /home/sarem/.config/hypr/hyprland.conf";
         user = "sarem";
       };
 
