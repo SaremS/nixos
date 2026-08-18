@@ -81,6 +81,7 @@
     burpsuite
     zip
     unzip
+    socat
   ];
 
   environment.sessionVariables = {
