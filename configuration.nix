@@ -74,6 +74,8 @@
     ffuf
     nuclei
     katana
+    nmap
+    chisel
   ];
 
   environment.sessionVariables = {
