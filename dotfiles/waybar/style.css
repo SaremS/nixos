@@ -1,0 +1,73 @@
+@import "/home/sarem/.cache/wal/colors-waybar.css";
+* {
+    font-family: "JetBrainsMono Nerd Font", "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* The whole bar: Transparent white */
+window#waybar {
+    background: transparent;
+}
+
+.modules-center {
+    background-color: alpha(@background, 0.55);
+    border-radius: 16px;
+    padding: 0 70px; 
+    margin-top: 8px; /* Pushes the pill down from the very top */
+    color: #ffffff;
+}
+
+/* Add a little spacing around the modules so they breathe */
+#workspaces {
+    padding: 0 10px;
+    margin: 4px 6px;
+    border-radius: 12px;
+}
+
+#clock {
+    padding: 0 10px;
+    margin: 4px 70px;
+    border-radius: 12px;
+}
+
+#pulseaudio, #network, #battery, #tray {
+    padding: 0 10px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+/* Workspace styling */
+#workspaces button {
+    padding: 0 6px;
+    color: alpha(@foreground, 0.8);
+    background: transparent;
+    transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+    color: @color5; 
+}
+
+#workspaces button:hover {
+    box-shadow: none;
+    text-shadow: none;
+    background: alpha(@background, 0.8);
+    border-radius: 10px;
+}
+
+/* Hover effect for right modules */
+#pulseaudio:hover, #network:hover, #battery:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Critical battery color override */
+#battery.critical:not(.charging) {
+    color: @color3;
+    font-weight: bold;
+}
