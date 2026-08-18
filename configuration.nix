@@ -79,6 +79,8 @@
     wget
     openvpn
     burpsuite
+    zip
+    unzip
   ];
 
   environment.sessionVariables = {
