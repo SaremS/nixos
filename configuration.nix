@@ -76,6 +76,7 @@
     katana
     nmap
     chisel
+    wget
   ];
 
   environment.sessionVariables = {
