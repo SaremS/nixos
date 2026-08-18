@@ -84,6 +84,7 @@
     socat
     netcat
     uv
+    python3
   ];
 
   environment.sessionVariables = {
