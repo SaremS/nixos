@@ -64,7 +64,7 @@
     waybar
     wofi
     google-chrome
-    hyprpaper
+    swaybg
     pywal16
     tmux
     nnn
